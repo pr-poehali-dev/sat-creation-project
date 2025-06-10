@@ -29,8 +29,12 @@ const ReviewForm: React.FC = () => {
       <Card className="m-4 shadow-lg border-0 rounded-2xl overflow-hidden">
         <CardHeader className="bg-white border-b border-gray-100 p-4">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-red-500 rounded-lg flex items-center justify-center">
-              <Icon name="MessageSquare" size={16} className="text-white" />
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden">
+              <img
+                src="https://cdn.poehali.dev/files/f586fd54-ed8c-41d8-b501-adb584c6914d.jpg"
+                alt="Логотип"
+                className="w-full h-full object-contain"
+              />
             </div>
             <h1 className="text-lg font-semibold text-gray-900">
               Оставить отзыв
